@@ -1,6 +1,13 @@
 # vue-dataPicker
 vue+datePicker.js 实现一个仿苹果手机的日历选择器
 
+## 本人已经发布在npm上，可以直接输入
+
+### 欢迎 Star or Issues
+```
+npm i --save vue-ios-datepicker
+```
+
 #### calendar.vue
 ```
 <template>
@@ -8,7 +15,7 @@ vue+datePicker.js 实现一个仿苹果手机的日历选择器
     <p id="data">{{selectedData}}</p>
   </div>
 </template>
-var datePicker = require('../../assets/js/datePicker')
+import datePicker for 'vue-ios-daepicker'
 export default {
   data () {
     return {
